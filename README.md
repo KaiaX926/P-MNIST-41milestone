@@ -12,17 +12,17 @@ Three main observations are obtained during the whole process based on the train
 
 Below is Nets that I considered with proper activation functions:
 
-Net1(
+**Net1**(
   (fc1): Linear(in_features=784, out_features=100, bias=True)
   (output): Linear(in_features=100, out_features=10, bias=True)
 )
 
-Net2(
+**Net2**(
   (conv1): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
   (out): Linear(in_features=1176, out_features=10, bias=True)
 )
 
-Net3(
+**Net3**(
   (conv1): Conv2d(1, 16, kernel_size=(5, 5), stride=(1, 1))
   (conv2): Conv2d(16, 64, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
   (batch1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
@@ -36,7 +36,7 @@ Net3(
   (fc3): Linear(in_features=128, out_features=10, bias=True)
 )
 
-Net4(
+**Net4**(
   (conv1): Conv2d(1, 16, kernel_size=(5, 5), stride=(1, 1))
   (conv2): Conv2d(16, 64, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
   (batch1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
@@ -50,7 +50,7 @@ Net4(
   (fc3): Linear(in_features=128, out_features=19, bias=True)
 )
 
-Net5(
+**Net5**(
   (conv1): Conv2d(1, 16, kernel_size=(5, 5), stride=(1, 1))
   (conv2): Conv2d(16, 64, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
   (batch1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
