@@ -13,8 +13,8 @@ Three main observations are obtained during the whole process based on the train
 Below is Nets that I considered with proper activation functions:
 
 **Net1**(
-  (fc1): Linear(in_features=784, out_features=100, bias=True)
-  (output): Linear(in_features=100, out_features=10, bias=True)
+  (fc1): Linear(in_features=784, out_features=100, bias=True)\
+  (output): Linear(in_features=100, out_features=10, bias=True)\
 )
 
 **Net2**(
