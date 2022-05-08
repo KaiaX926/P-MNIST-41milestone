@@ -5,10 +5,13 @@ MNIST is a subset of a larger set available from NIST. The digits have been size
 
 In the first two questions completed before, I explored the simple learners, including KNN, SVM, and Decision tree. Some of them already have great performance. In the second phase, I used machine-learning algorithms to predict the results. Cross entropy loss and accuracy of the model are considered throughout the training. Using different tricks like dropout, batch normalization, and momentum, I found the model that will outperform the simple learners.
 
-Three main observations are obtained during the whole process based on the training and the model behaviors. Detailed explanations and comparisons are commented on in the code.
+Three main observations are obtained during the whole process based on the training and the model behaviors. Detailed explanation refers to the reports. Detailed explanations and comparisons are commented on in the code.
 1. The seed will influence the behavior of models.
 2. Convolutional layers do improve the behaviors of the neuron network.
 3. Momentum and learning rate is crucial to the model performance. 
+4. Quality of data set  is important to the model performance.
+
+
 
 Below is Nets that I considered with proper activation functions:
 
